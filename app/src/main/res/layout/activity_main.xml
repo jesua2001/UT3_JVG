@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ejercicio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="341dp"
+        android:text="@string/ejercico1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ejercicio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="341dp"
+        android:text="@string/ejercicio2"
+        app:layout_constraintStart_toEndOf="@+id/ejercicio1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ejercicio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="341dp"
+        android:text="@string/ejercicio3"
+        app:layout_constraintStart_toEndOf="@+id/ejercicio2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ejercicio5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/ejercicio5"
+        app:layout_constraintStart_toEndOf="@+id/ejercicio4"
+        app:layout_constraintTop_toBottomOf="@+id/ejercicio2" />
+
+    <Button
+        android:id="@+id/ejercicio6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/ejercicio6"
+        app:layout_constraintStart_toEndOf="@+id/ejercicio5"
+        app:layout_constraintTop_toBottomOf="@+id/ejercicio3" />
+
+    <Button
+        android:id="@+id/ejercicio4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/ejercicio4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ejercicio1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ejercico10</string>
+    <string name="ejercicio4">ejercicio4</string>
+    <string name="ejercicio6">ejercicio6</string>
+    <string name="ejercicio5">ejercicio5</string>
+    <string name="ejercicio3">ejercicio3</string>
+    <string name="ejercicio2">ejercicio2</string>
+    <string name="ejercico1">ejercico1</string>
+    <string name="holamundo">Holamundo</string>
+    <string name="textview">TextView</string>
+    <string name="hola_putero">Hola putero</string>
+    <string name="comprobar_url">Comprobar_Url</string>
+    <string name="boton_cambiar_activity">Boton Cambiar Activity</string>
+    <string name="_2_activity_del_boton">2 activity del boton</string>
+    <string name="bot_n_azul">Botón azul</string>
+    <string name="bot_n_verde">Botón verde</string>
+    <string name="bot_n_rojo">Botón rojo</string>
+    <string name="programaci_n_multimedia">PROGRAMACIÓN MULTIMEDIA</string>
+</resources>
